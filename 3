@@ -1,0 +1,18 @@
+#include <stdio.h> //conenct lib
+#include<locale.h>
+#include<math.h>
+int main(void) { //запуск програми
+float a; 
+int x;
+int y;
+int z; //введення змін
+printf("vkacitb chuclo x=");
+scanf("%d",&x);
+printf("vkacitb chuclo y=");
+scanf("%d",&y);
+printf("vkacitb chuclo z=");
+scanf("%d",&z);
+ a = (float)(sqrt(x)+2*sqrt(y*z))/(sqrt(y)-2*sqrt(x*z)); //formula
+printf("znachenya funkciy a = : %f\n",a);
+return 0;
+}
